@@ -1,0 +1,44 @@
+{
+  "name": "cardboard-vault",
+  "version": "1.0.0",
+  "description": "desktop client for password manager",
+  "main": "app/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron .",
+    "postinstall": "install-app-deps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PureCilantro/CardboardVault.git"
+  },
+  "keywords": [
+    "password",
+    "management",
+    "desktop"
+  ],
+  "author": "Alan Espinosa Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PureCilantro/CardboardVault/issues"
+  },
+  "homepage": "https://github.com/PureCilantro/CardboardVault#readme",
+  "devDependencies": {
+    "electron": "^34.0.1",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "@electron/rebuild": "^3.7.1",
+    "bcrypt": "^5.1.1",
+    "better-sqlite3-multiple-ciphers": "^11.8.1",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "https": "^1.0.0",
+    "jimp": "^1.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "appId": "com.cilantro.carboardvault",
+    "productName": "Carboard Vault",
+    "directories": {
+        "output": "dist"
+    },
+    "files": [
+        "api",
+        "app"
+    ],
+    "win": {
+        "target": "nsis",
+        "icon": "build/icon.ico"
+    }
+}
